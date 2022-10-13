@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2884389037079747278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1498406530655489371}
+  - component: {fileID: 8036912424212894545}
+  - component: {fileID: 2731903377902211603}
+  - component: {fileID: 3139612067203558415}
+  m_Layer: 6
+  m_Name: YellowTurret
+  m_TagString: Turret
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1498406530655489371
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2884389037079747278}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.270363, y: 4.3854737, z: -0.016672587}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8036912424212894545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2884389037079747278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 511d1f92581e4d35a19cc042bb669695, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levels:
+  - {fileID: 3682470397360134174, guid: 4d2dfb5c56be1f245aa82125da59c7c0, type: 3}
+  - {fileID: 3682470397360134174, guid: f175cac8e3904f24c8306bb2baae814e, type: 3}
+  - {fileID: 3682470397360134174, guid: 4defc5a992d02894d94f7bde0538d773, type: 3}
+  - {fileID: 3682470397360134174, guid: 4bfdb03b953429e45aa6b1e4d080e12d, type: 3}
+  - {fileID: 3682470397360134174, guid: 3f39dfbba6624e2419e2af61e3f1008a, type: 3}
+  - {fileID: 3682470397360134174, guid: 6cc18a8d9d4682749aaae3d6d7cb86b9, type: 3}
+  - {fileID: 3682470397360134174, guid: c9b869933b166e24ebf86c2dd56d9b33, type: 3}
+  - {fileID: 3682470397360134174, guid: c9b869933b166e24ebf86c2dd56d9b33, type: 3}
+  - {fileID: 3682470397360134174, guid: fc667e6fe16ba154f9b21b1a700d00a4, type: 3}
+  State: 2
+--- !u!114 &2731903377902211603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2884389037079747278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cae2fcb537ea60845b29078d114cc043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  orangePrefab: {fileID: 6593425892644744643, guid: f95f77645eecadc4bac3c9578255f338, type: 3}
+  greenPrefab: {fileID: 7570280144783847824, guid: 80e959ef3530fd64da1d3a101e0ef877, type: 3}
+  purplePrefab: {fileID: 8043907216680328389, guid: fc9207da4417ac14ca86b5b6f65a06c1, type: 3}
+--- !u!61 &3139612067203558415
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2884389037079747278}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0

@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: 59f467791b90b234f830e803934abb04
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1bfdceb9b4ffcac5db7031615ac132db, type: 3}
+  importOptions:
+    scale: 1
+    splitLayers: 0
+    splitSlices: 0
+    fileNameFormat: '{title}_{tag}_frame{tagframe1}'
+    ditheringAlgorithmType: 0
+    ditheringMatrixType: 0
+    colorMode: 0
+  spriteImportOptions:
+    pixelsPerUnit: 20
+    pivot: {x: 0.5, y: 0.5}
+    extrude: 0
+    meshType: 1
+    border: {x: 0, y: 0, z: 0, w: 0}
+  textureCreationOptions:
+    textureWrapMode: 1
+    filterMode: 0
+    alphaIsTransparency: 1
+  colabOptions:
+    exportToFile: 0
+    exportDirectory: Sprites/{filename}
+  animationOptions:
+  - tagName: loop
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 2
+      loopTime: 1
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: Down
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 2
+      loopTime: 1
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  sheetData:
+    frames:
+    - filename: Slug_loop_frame1
+      frame:
+        x: 0
+        y: 0
+        w: 29
+        h: 23
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 29
+        h: 23
+      sourceSize:
+        w: 29
+        h: 23
+      duration: 150
+    - filename: Slug_loop_frame2
+      frame:
+        x: 29
+        y: 0
+        w: 29
+        h: 23
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 29
+        h: 23
+      sourceSize:
+        w: 29
+        h: 23
+      duration: 100
+    - filename: Slug_loop_frame3
+      frame:
+        x: 58
+        y: 0
+        w: 29
+        h: 23
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 29
+        h: 23
+      sourceSize:
+        w: 29
+        h: 23
+      duration: 150
+    - filename: Slug_Down_frame1
+      frame:
+        x: 87
+        y: 0
+        w: 29
+        h: 23
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 29
+        h: 23
+      sourceSize:
+        w: 29
+        h: 23
+      duration: 150
+    - filename: Slug_Down_frame2
+      frame:
+        x: 116
+        y: 0
+        w: 29
+        h: 23
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 29
+        h: 23
+      sourceSize:
+        w: 29
+        h: 23
+      duration: 100
+    - filename: Slug_Down_frame3
+      frame:
+        x: 145
+        y: 0
+        w: 29
+        h: 23
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 29
+        h: 23
+      sourceSize:
+        w: 29
+        h: 23
+      duration: 150
+    meta:
+      version: 1.2.25-x64
+      image: Slug_sheet.png
+      format: RGBA8888
+      size:
+        w: 174
+        h: 23
+      scale: 1
+      frameTags:
+      - name: loop
+        from: 0
+        to: 2
+        direction: pingpong
+      - name: Down
+        from: 3
+        to: 5
+        direction: pingpong
+      slices: []
+    pathToSheetData: Temp/UnityTempFile-85e758be5feb18d47a44c56fc89dc135/asetempexports/Slug_data.json
+    aseFileName: Assets/Sprites/Enemies/Slug/Slug.aseprite

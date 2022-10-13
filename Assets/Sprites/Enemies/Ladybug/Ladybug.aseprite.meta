@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: bc7ecacfec0405d4e83b8f07c0ff1b79
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1bfdceb9b4ffcac5db7031615ac132db, type: 3}
+  importOptions:
+    scale: 1
+    splitLayers: 0
+    splitSlices: 0
+    fileNameFormat: '{title}_{tag}_frame{tagframe1}'
+    ditheringAlgorithmType: 0
+    ditheringMatrixType: 0
+    colorMode: 0
+  spriteImportOptions:
+    pixelsPerUnit: 20
+    pivot: {x: 0.5, y: 0.5}
+    extrude: 0
+    meshType: 1
+    border: {x: 0, y: 0, z: 0, w: 0}
+  textureCreationOptions:
+    textureWrapMode: 1
+    filterMode: 0
+    alphaIsTransparency: 1
+  colabOptions:
+    exportToFile: 0
+    exportDirectory: Sprites/{filename}
+  animationOptions:
+  - tagName: Loop
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 1
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: Down
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 1
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  sheetData:
+    frames:
+    - filename: Ladybug_Loop_frame1
+      frame:
+        x: 0
+        y: 0
+        w: 29
+        h: 23
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 29
+        h: 23
+      sourceSize:
+        w: 29
+        h: 23
+      duration: 120
+    - filename: Ladybug_Loop_frame2
+      frame:
+        x: 29
+        y: 0
+        w: 29
+        h: 23
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 29
+        h: 23
+      sourceSize:
+        w: 29
+        h: 23
+      duration: 120
+    - filename: Ladybug_Loop_frame3
+      frame:
+        x: 58
+        y: 0
+        w: 29
+        h: 23
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 29
+        h: 23
+      sourceSize:
+        w: 29
+        h: 23
+      duration: 140
+    - filename: Ladybug_Loop_frame4
+      frame:
+        x: 87
+        y: 0
+        w: 29
+        h: 23
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 29
+        h: 23
+      sourceSize:
+        w: 29
+        h: 23
+      duration: 140
+    - filename: Ladybug_Down_frame1
+      frame:
+        x: 116
+        y: 0
+        w: 29
+        h: 23
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 29
+        h: 23
+      sourceSize:
+        w: 29
+        h: 23
+      duration: 120
+    - filename: Ladybug_Down_frame2
+      frame:
+        x: 145
+        y: 0
+        w: 29
+        h: 23
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 29
+        h: 23
+      sourceSize:
+        w: 29
+        h: 23
+      duration: 120
+    - filename: Ladybug_Down_frame3
+      frame:
+        x: 174
+        y: 0
+        w: 29
+        h: 23
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 29
+        h: 23
+      sourceSize:
+        w: 29
+        h: 23
+      duration: 120
+    - filename: Ladybug_Down_frame4
+      frame:
+        x: 203
+        y: 0
+        w: 29
+        h: 23
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 29
+        h: 23
+      sourceSize:
+        w: 29
+        h: 23
+      duration: 120
+    meta:
+      version: 1.2.25-x64
+      image: Ladybug_sheet.png
+      format: RGBA8888
+      size:
+        w: 232
+        h: 23
+      scale: 1
+      frameTags:
+      - name: Loop
+        from: 0
+        to: 3
+        direction: forward
+      - name: Down
+        from: 4
+        to: 7
+        direction: reverse
+      slices: []
+    pathToSheetData: Temp/UnityTempFile-cb4eca90228314b4dac333b36de890ef/asetempexports/Ladybug_data.json
+    aseFileName: Assets/Sprites/Enemies/Ladybug/Ladybug.aseprite

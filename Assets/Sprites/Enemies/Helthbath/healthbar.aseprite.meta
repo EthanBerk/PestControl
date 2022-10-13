@@ -1,0 +1,606 @@
+fileFormatVersion: 2
+guid: 8341040c7ad34a0498b05bb010f7249e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1bfdceb9b4ffcac5db7031615ac132db, type: 3}
+  importOptions:
+    scale: 1
+    splitLayers: 0
+    splitSlices: 0
+    fileNameFormat: '{title}_{tag}_frame{tagframe1}'
+    ditheringAlgorithmType: 0
+    ditheringMatrixType: 0
+    colorMode: 0
+  spriteImportOptions:
+    pixelsPerUnit: 20
+    pivot: {x: 0.5, y: 0.5}
+    extrude: 0
+    meshType: 1
+    border: {x: 0, y: 0, z: 0, w: 0}
+  textureCreationOptions:
+    textureWrapMode: 1
+    filterMode: 0
+    alphaIsTransparency: 1
+  colabOptions:
+    exportToFile: 0
+    exportDirectory: Sprites/{filename}
+  animationOptions:
+  - tagName: 1
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: 2
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: 3
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: 4
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: 5
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: 6
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: 7
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: 8
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: 9
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: 10
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: 11
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: 12
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: 13
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: 14
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: 15
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: 16
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  sheetData:
+    frames:
+    - filename: healthbar_1_frame1
+      frame:
+        x: 0
+        y: 0
+        w: 16
+        h: 5
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 5
+      sourceSize:
+        w: 16
+        h: 5
+      duration: 100
+    - filename: healthbar_2_frame1
+      frame:
+        x: 16
+        y: 0
+        w: 16
+        h: 5
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 5
+      sourceSize:
+        w: 16
+        h: 5
+      duration: 100
+    - filename: healthbar_3_frame1
+      frame:
+        x: 32
+        y: 0
+        w: 16
+        h: 5
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 5
+      sourceSize:
+        w: 16
+        h: 5
+      duration: 100
+    - filename: healthbar_4_frame1
+      frame:
+        x: 48
+        y: 0
+        w: 16
+        h: 5
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 5
+      sourceSize:
+        w: 16
+        h: 5
+      duration: 100
+    - filename: healthbar_5_frame1
+      frame:
+        x: 64
+        y: 0
+        w: 16
+        h: 5
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 5
+      sourceSize:
+        w: 16
+        h: 5
+      duration: 100
+    - filename: healthbar_6_frame1
+      frame:
+        x: 80
+        y: 0
+        w: 16
+        h: 5
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 5
+      sourceSize:
+        w: 16
+        h: 5
+      duration: 100
+    - filename: healthbar_7_frame1
+      frame:
+        x: 96
+        y: 0
+        w: 16
+        h: 5
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 5
+      sourceSize:
+        w: 16
+        h: 5
+      duration: 100
+    - filename: healthbar_8_frame1
+      frame:
+        x: 112
+        y: 0
+        w: 16
+        h: 5
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 5
+      sourceSize:
+        w: 16
+        h: 5
+      duration: 100
+    - filename: healthbar_9_frame1
+      frame:
+        x: 128
+        y: 0
+        w: 16
+        h: 5
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 5
+      sourceSize:
+        w: 16
+        h: 5
+      duration: 100
+    - filename: healthbar_10_frame1
+      frame:
+        x: 144
+        y: 0
+        w: 16
+        h: 5
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 5
+      sourceSize:
+        w: 16
+        h: 5
+      duration: 100
+    - filename: healthbar_11_frame1
+      frame:
+        x: 160
+        y: 0
+        w: 16
+        h: 5
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 5
+      sourceSize:
+        w: 16
+        h: 5
+      duration: 100
+    - filename: healthbar_12_frame1
+      frame:
+        x: 176
+        y: 0
+        w: 16
+        h: 5
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 5
+      sourceSize:
+        w: 16
+        h: 5
+      duration: 100
+    - filename: healthbar_13_frame1
+      frame:
+        x: 192
+        y: 0
+        w: 16
+        h: 5
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 5
+      sourceSize:
+        w: 16
+        h: 5
+      duration: 100
+    - filename: healthbar_14_frame1
+      frame:
+        x: 208
+        y: 0
+        w: 16
+        h: 5
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 5
+      sourceSize:
+        w: 16
+        h: 5
+      duration: 100
+    - filename: healthbar_15_frame1
+      frame:
+        x: 224
+        y: 0
+        w: 16
+        h: 5
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 5
+      sourceSize:
+        w: 16
+        h: 5
+      duration: 100
+    - filename: healthbar_16_frame1
+      frame:
+        x: 240
+        y: 0
+        w: 16
+        h: 5
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 16
+        h: 5
+      sourceSize:
+        w: 16
+        h: 5
+      duration: 100
+    meta:
+      version: 1.2.25-x64
+      image: healthbar_sheet.png
+      format: RGBA8888
+      size:
+        w: 256
+        h: 5
+      scale: 1
+      frameTags:
+      - name: 1
+        from: 0
+        to: 0
+        direction: forward
+      - name: 2
+        from: 1
+        to: 1
+        direction: forward
+      - name: 3
+        from: 2
+        to: 2
+        direction: forward
+      - name: 4
+        from: 3
+        to: 3
+        direction: forward
+      - name: 5
+        from: 4
+        to: 4
+        direction: forward
+      - name: 6
+        from: 5
+        to: 5
+        direction: forward
+      - name: 7
+        from: 6
+        to: 6
+        direction: forward
+      - name: 8
+        from: 7
+        to: 7
+        direction: forward
+      - name: 9
+        from: 8
+        to: 8
+        direction: forward
+      - name: 10
+        from: 9
+        to: 9
+        direction: forward
+      - name: 11
+        from: 10
+        to: 10
+        direction: forward
+      - name: 12
+        from: 11
+        to: 11
+        direction: forward
+      - name: 13
+        from: 12
+        to: 12
+        direction: forward
+      - name: 14
+        from: 13
+        to: 13
+        direction: forward
+      - name: 15
+        from: 14
+        to: 14
+        direction: forward
+      - name: 16
+        from: 15
+        to: 15
+        direction: forward
+      slices: []
+    pathToSheetData: Temp/UnityTempFile-9747ff25d7b579647a7483b366abf88f/asetempexports/healthbar_data.json
+    aseFileName: Assets/Sprites/Enemies/Helthbath/healthbar.aseprite

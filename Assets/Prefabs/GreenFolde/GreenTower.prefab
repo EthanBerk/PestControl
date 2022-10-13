@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7570280144783847824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7570280144783847828}
+  - component: {fileID: 7570280144783847831}
+  - component: {fileID: 7570280144783847830}
+  - component: {fileID: 7570280144783847825}
+  m_Layer: 6
+  m_Name: GreenTower
+  m_TagString: Turret
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7570280144783847828
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7570280144783847824}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &7570280144783847831
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7570280144783847824}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &7570280144783847830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7570280144783847824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cae2fcb537ea60845b29078d114cc043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  orangePrefab: {fileID: 6593425892644744643, guid: f95f77645eecadc4bac3c9578255f338, type: 3}
+  greenPrefab: {fileID: 7570280144783847824}
+  purplePrefab: {fileID: 8043907216680328389, guid: fc9207da4417ac14ca86b5b6f65a06c1, type: 3}
+--- !u!114 &7570280144783847825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7570280144783847824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 511d1f92581e4d35a19cc042bb669695, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levels:
+  - {fileID: 8884548972195662648, guid: f3580a6223564eb4c9cb6f8958c34fd1, type: 3}
+  - {fileID: 8884548972195662648, guid: a1f2ae0dd2426de43b0249ce330127a2, type: 3}
+  - {fileID: 8884548972195662648, guid: 550e46d5b53c19745bba08d6786fcefb, type: 3}
+  - {fileID: 8884548972195662648, guid: 8a374c4035873884a98937afee7012a4, type: 3}
+  - {fileID: 8884548972195662648, guid: c4b7d0b184a71424ea95de018e569718, type: 3}
+  - {fileID: 8884548972195662648, guid: 4c385fce9a5fced48949c83592656160, type: 3}
+  - {fileID: 8884548972195662648, guid: cf1939e362ca96c4e870ad8ab76d2ca6, type: 3}
+  - {fileID: 8884548972195662648, guid: b43256393f67f5c4ba70f8138c2dc3af, type: 3}
+  - {fileID: 8884548972195662648, guid: f279fa80d34cb274bbfff6cbc2b3f1e8, type: 3}
+  State: 5

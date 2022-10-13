@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: 2dbe5d129a34d38468d078cb3cbd1e57
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1bfdceb9b4ffcac5db7031615ac132db, type: 3}
+  importOptions:
+    scale: 1
+    splitLayers: 0
+    splitSlices: 0
+    fileNameFormat: '{title}_{tag}_frame{tagframe1}'
+    ditheringAlgorithmType: 0
+    ditheringMatrixType: 0
+    colorMode: 0
+  spriteImportOptions:
+    pixelsPerUnit: 20
+    pivot: {x: 0.5, y: 0.5}
+    extrude: 0
+    meshType: 1
+    border: {x: 0, y: 0, z: 0, w: 0}
+  textureCreationOptions:
+    textureWrapMode: 1
+    filterMode: 0
+    alphaIsTransparency: 1
+  colabOptions:
+    exportToFile: 0
+    exportDirectory: Sprites/{filename}
+  animationOptions:
+  - tagName: loop
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 1
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: Loop
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 1
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  sheetData:
+    frames:
+    - filename: Dragonfly_loop_frame1
+      frame:
+        x: 0
+        y: 0
+        w: 46
+        h: 45
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 46
+        h: 45
+      sourceSize:
+        w: 46
+        h: 45
+      duration: 80
+    - filename: Dragonfly_loop_frame2
+      frame:
+        x: 46
+        y: 0
+        w: 46
+        h: 45
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 46
+        h: 45
+      sourceSize:
+        w: 46
+        h: 45
+      duration: 80
+    - filename: Dragonfly_loop_frame3
+      frame:
+        x: 92
+        y: 0
+        w: 46
+        h: 45
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 46
+        h: 45
+      sourceSize:
+        w: 46
+        h: 45
+      duration: 80
+    - filename: Dragonfly_loop_frame4
+      frame:
+        x: 138
+        y: 0
+        w: 46
+        h: 45
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 46
+        h: 45
+      sourceSize:
+        w: 46
+        h: 45
+      duration: 80
+    - filename: Dragonfly_Loop_frame1
+      frame:
+        x: 184
+        y: 0
+        w: 46
+        h: 45
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 46
+        h: 45
+      sourceSize:
+        w: 46
+        h: 45
+      duration: 80
+    - filename: Dragonfly_Loop_frame2
+      frame:
+        x: 230
+        y: 0
+        w: 46
+        h: 45
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 46
+        h: 45
+      sourceSize:
+        w: 46
+        h: 45
+      duration: 80
+    - filename: Dragonfly_Loop_frame3
+      frame:
+        x: 276
+        y: 0
+        w: 46
+        h: 45
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 46
+        h: 45
+      sourceSize:
+        w: 46
+        h: 45
+      duration: 80
+    - filename: Dragonfly_Loop_frame4
+      frame:
+        x: 322
+        y: 0
+        w: 46
+        h: 45
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 46
+        h: 45
+      sourceSize:
+        w: 46
+        h: 45
+      duration: 80
+    meta:
+      version: 1.2.25-x64
+      image: Dragonfly_sheet.png
+      format: RGBA8888
+      size:
+        w: 368
+        h: 45
+      scale: 1
+      frameTags:
+      - name: loop
+        from: 0
+        to: 3
+        direction: forward
+      - name: Loop
+        from: 4
+        to: 7
+        direction: forward
+      slices: []
+    pathToSheetData: Temp/UnityTempFile-f3372b99d7747d145b46b9a35ccf7416/asetempexports/Dragonfly_data.json
+    aseFileName: Assets/Sprites/Enemies/Dragonfly.aseprite

@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: 976f7d781be21344a9103dedb7902997
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1bfdceb9b4ffcac5db7031615ac132db, type: 3}
+  importOptions:
+    scale: 1
+    splitLayers: 0
+    splitSlices: 0
+    fileNameFormat: '{title}_{tag}_frame{tagframe1}'
+    ditheringAlgorithmType: 0
+    ditheringMatrixType: 0
+    colorMode: 0
+  spriteImportOptions:
+    pixelsPerUnit: 20
+    pivot: {x: 0.5, y: 0.5}
+    extrude: 0
+    meshType: 1
+    border: {x: 0, y: 0, z: 0, w: 0}
+  textureCreationOptions:
+    textureWrapMode: 1
+    filterMode: 0
+    alphaIsTransparency: 1
+  colabOptions:
+    exportToFile: 0
+    exportDirectory: Sprites/{filename}
+  animationOptions:
+  - tagName: loop
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 1
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: Down
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 1
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  sheetData:
+    frames:
+    - filename: Queenant_loop_frame1
+      frame:
+        x: 0
+        y: 0
+        w: 68
+        h: 38
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 68
+        h: 38
+      sourceSize:
+        w: 68
+        h: 38
+      duration: 140
+    - filename: Queenant_loop_frame2
+      frame:
+        x: 68
+        y: 0
+        w: 68
+        h: 38
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 68
+        h: 38
+      sourceSize:
+        w: 68
+        h: 38
+      duration: 140
+    - filename: Queenant_loop_frame3
+      frame:
+        x: 136
+        y: 0
+        w: 68
+        h: 38
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 68
+        h: 38
+      sourceSize:
+        w: 68
+        h: 38
+      duration: 140
+    - filename: Queenant_loop_frame4
+      frame:
+        x: 204
+        y: 0
+        w: 68
+        h: 38
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 68
+        h: 38
+      sourceSize:
+        w: 68
+        h: 38
+      duration: 140
+    - filename: Queenant_Down_frame1
+      frame:
+        x: 272
+        y: 0
+        w: 68
+        h: 38
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 68
+        h: 38
+      sourceSize:
+        w: 68
+        h: 38
+      duration: 140
+    - filename: Queenant_Down_frame2
+      frame:
+        x: 340
+        y: 0
+        w: 68
+        h: 38
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 68
+        h: 38
+      sourceSize:
+        w: 68
+        h: 38
+      duration: 140
+    - filename: Queenant_Down_frame3
+      frame:
+        x: 408
+        y: 0
+        w: 68
+        h: 38
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 68
+        h: 38
+      sourceSize:
+        w: 68
+        h: 38
+      duration: 140
+    - filename: Queenant_Down_frame4
+      frame:
+        x: 476
+        y: 0
+        w: 68
+        h: 38
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 68
+        h: 38
+      sourceSize:
+        w: 68
+        h: 38
+      duration: 140
+    meta:
+      version: 1.2.25-x64
+      image: Queenant_sheet.png
+      format: RGBA8888
+      size:
+        w: 544
+        h: 38
+      scale: 1
+      frameTags:
+      - name: loop
+        from: 0
+        to: 3
+        direction: forward
+      - name: Down
+        from: 4
+        to: 7
+        direction: forward
+      slices: []
+    pathToSheetData: Temp/UnityTempFile-d975debec5e13b941a262b9c59175cda/asetempexports/Queenant_data.json
+    aseFileName: Assets/Sprites/Enemies/Queenant.aseprite
